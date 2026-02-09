@@ -230,6 +230,85 @@ img {
   opacity: 1;
 }
 
+/* ===== About Extended Sections ===== */
+.about-section-block {
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.about-section-block h2 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+  letter-spacing: -0.01em;
+}
+
+.about-section-block > p {
+  color: var(--color-text-secondary);
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+.framework-steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.framework-step {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 1.25rem;
+}
+
+.framework-step h4 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  margin-bottom: 0.4rem;
+}
+
+.framework-step p {
+  color: var(--color-text-secondary);
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+
+.focus-areas {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.focus-item {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  padding: 1.25rem;
+}
+
+.focus-item h4 {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
+}
+
+.focus-item p {
+  color: var(--color-text-secondary);
+  font-size: 0.88rem;
+  line-height: 1.55;
+}
+
+@media (max-width: 600px) {
+  .framework-steps,
+  .focus-areas {
+    grid-template-columns: 1fr;
+  }
+}
+
 /* ===== Experience Section ===== */
 .timeline {
   position: relative;
