@@ -256,6 +256,13 @@ img {
   opacity: 1;
 }
 
+.about-education {
+  margin-top: 1.5rem;
+  color: var(--color-text-secondary);
+  font-size: 0.95rem;
+  font-style: italic;
+}
+
 /* ===== About Extended Sections ===== */
 .about-section-block {
   margin-top: 2.5rem;
