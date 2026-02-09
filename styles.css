@@ -81,6 +81,32 @@ img {
   letter-spacing: -0.02em;
 }
 
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header-socials {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.header-socials a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-text-secondary);
+  transition: color var(--transition);
+  padding: 0.25rem;
+}
+
+.header-socials a:hover {
+  color: var(--color-accent);
+  opacity: 1;
+}
+
 .mobile-menu-btn {
   display: none;
   background: none;
