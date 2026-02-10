@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const tabPanels = document.querySelectorAll('.tab-panel');
   const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
   const tabNav = document.querySelector('.tab-nav');
+  const logo = document.querySelector('.logo');
 
   function switchTab(tabId) {
     tabButtons.forEach((btn) => btn.classList.remove('active'));
@@ -26,6 +27,14 @@ document.addEventListener('DOMContentLoaded', () => {
       switchTab(btn.dataset.tab);
     });
   });
+
+  // Logo click → show home panel
+  if (logo) {
+    logo.addEventListener('click', (e) => {
+      e.preventDefault();
+      switchTab('home');
+    });
+  }
 
   // Mobile menu toggle
   if (mobileMenuBtn) {
