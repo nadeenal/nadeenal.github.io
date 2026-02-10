@@ -263,6 +263,12 @@ img {
   font-style: italic;
 }
 
+.education-school {
+  color: var(--color-accent);
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
 .education-date {
   color: var(--color-text-secondary);
   font-size: 0.9rem;
