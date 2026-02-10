@@ -270,6 +270,12 @@ img {
   border-top: 1px solid var(--color-border);
 }
 
+.about-section-block.first {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+
 .about-section-block h2 {
   font-size: 1.2rem;
   font-weight: 700;
