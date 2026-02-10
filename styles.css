@@ -263,6 +263,12 @@ img {
   font-style: italic;
 }
 
+.education-date {
+  color: var(--color-text-secondary);
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
 /* ===== About Extended Sections ===== */
 .about-section-block {
   margin-top: 2.5rem;
