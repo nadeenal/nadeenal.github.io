@@ -499,6 +499,18 @@ a.company:hover {
   color: var(--color-accent);
 }
 
+/* ===== Coming Soon ===== */
+.coming-soon {
+  text-align: center;
+  padding: 4rem 0;
+}
+
+.coming-soon p {
+  color: var(--color-text-secondary);
+  font-size: 1.1rem;
+  font-style: italic;
+}
+
 /* ===== Projects Section ===== */
 .projects-grid {
   display: grid;
